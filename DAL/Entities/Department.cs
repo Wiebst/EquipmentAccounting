@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DAL.Entities
 {
-    internal class Department
+    public class Department : BaseEntity
     {
+        public string Name { get; set; };
     }
 }

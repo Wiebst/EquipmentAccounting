@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DAL.Entities
 {
-    internal class EquipmentType
+    public class EquipmentType : BaseEntity
     {
+        public string Name { get; set; }
     }
 }
