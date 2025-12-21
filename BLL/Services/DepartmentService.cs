@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL.Services
 {
-    internal class DepartmentService
+    public class DepartmentService
     {
     }
 }

@@ -7,9 +7,13 @@ using System.Threading.Tasks;
 
 namespace DAL.Entities
 {
-    public class EquipmentType
+    public class SoftwareLicense
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public string Manufacturer { get; set; }
+        public string LicenseKey { get; set; }
+        public DateTime ExpirationDate { get; set; }
     }
+
 }

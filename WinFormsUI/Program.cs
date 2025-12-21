@@ -2,7 +2,7 @@ using WinFormsUI.Forms;
 
 namespace WinFormsUI
 {
-    internal static class Program
+    public static class Program
     {
         [STAThread]
         static void Main()
